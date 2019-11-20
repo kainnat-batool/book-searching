@@ -1,0 +1,26 @@
+<?php
+$booktitle="";
+$bookauthor="";
+$pages="";
+$rack-no="";
+if(insert($_POST[Search']))
+{
+	
+}
+?>
+<!DOCTYPE>
+<html>
+<head>
+	<title> SEARCH BOOK IN LIBRARY</title>
+</head>
+<body>
+	<form action="http://localhost/booki/liby.php"method="POST">
+		booktitle:<input type="text" name="booktitle"><br><br>
+		bookauthor:<input type="text" name="bookauthor"><br><br>
+		pages:<input type="text" name="pages"><br><br>
+		rack-no<input type="text" name="rack-no"><br><br>
+		<input type="submit" name="Search" value="Find"><br><br>
+	</form>
+
+	</body>
+</html>
