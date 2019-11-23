@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['ASC']))
+if(isset($_POST['Search']))
 {
 $booktitle=$_POST['booktitle'];
 $asc_query="SELECT * FROM data ORDER by booktitle ASC";
