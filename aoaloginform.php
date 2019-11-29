@@ -1,9 +1,4 @@
-<?php
-if(isset($_POST['submit']))
-{
-header("Location:booki.php");
-}
-?>
+
 <!DOCTYPE html>
 <html>
 	<head>
